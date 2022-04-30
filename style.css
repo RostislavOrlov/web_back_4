@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/*!Обнуление*/
+* { padding: 0; margin: 0; border: 0; }
+
+*, *:before, *:after { -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+:focus, :active { outline: none; }
+
+a:focus, a:active { outline: none; }
+
+nav, footer, header, aside { display: block; }
+
+html, body { height: 100%; width: 100%; font-size: 100%; line-height: 1; font-size: 14px; -ms-text-size-adjust: 100%; -moz-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
+
+input, button, textarea { font-family: inherit; }
+
+input::-ms-clear { display: none; }
+
+button { cursor: pointer; }
+
+button::-moz-focus-inner { padding: 0; border: 0; }
+
+a, a:visited { text-decoration: none; }
+
+a:hover { text-decoration: none; }
+
+ul li { list-style: none; }
+
+img { vertical-align: top; }
+
+h1, h2, h3, h4, h5, h6 { font-size: inherit; font-weight: inherit; }
+
+/*!----------*/
+body { background-color: #a2a2a2; font-family: 'Roboto', sans-serif; font-size: 20px; }
+
+input, button, textarea { border: 2px solid rgba(0, 0, 0, 0.6); background-image: none; background-color: #dadad3; -webkit-box-shadow: none; box-shadow: none; padding: 5px; }
+
+input:focus, button:focus, textarea:focus { outline: none; }
+
+textarea { min-height: 50px; resize: vertical; }
+
+button { cursor: pointer; font-weight: 500; }
+
+select { border: 2px solid rgba(0, 0, 0, 0.6); background-color: #fff; min-width: 200px; }
+
+.form { margin: 0 auto; margin-top: 50px; margin-bottom: 50px; max-width: 300px; background-color: #fff; border: 1px solid black; }
+
+.form__body { font-size: 14px; }
+
+.form__header { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; padding: 10px 0; border-bottom: 1px solid black; text-align: center; }
+
+.form__header .none { display: none; }
+
+.form__header .form__container { border: 2px solid rgba(0, 0, 0, 0.6); }
+
+.form__header .form__container_good { background-color: #ADD3A6; color: #306D27; }
+
+.form__container_err { padding: 5px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; word-wrap: break-word; color: #5A161B; width: 200px; background-color: #C58D91; border: 2px solid rgba(0, 0, 0, 0.6); border-top: none; }
+
+.form__container_good { padding: 5px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; word-wrap: break-word; color: #5A161B; width: 200px; background-color: #C58D91; border: 2px solid rgba(0, 0, 0, 0.6); border-top: none; }
+
+.form__item { padding: 10px 50px 0 50px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: start; text-align: center; }
+
+.form__item_sp .form__label { text-align: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+.form__item_radio { -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; }
+
+.form__item_radio .form__container_err { border: 2px solid rgba(0, 0, 0, 0.6); }
+
+.form__item_numlimbs { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+
+.form__item_numlimbs .form__container { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; }
+
+.form__item_numlimbs .form__container_err { border: 2px solid rgba(0, 0, 0, 0.6); }
+
+.form__item_submit { padding-bottom: 10px; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.form__input_text { min-width: 200px; }
